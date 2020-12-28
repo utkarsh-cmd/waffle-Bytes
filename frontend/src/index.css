@@ -1,0 +1,24 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+.imgsvg{
+  width: 100%;
+}
+@media screen and (min-width: 890px) {
+  .card-image{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+  .card{
+    height: 90%;
+  }
+}
